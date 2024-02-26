@@ -17,8 +17,8 @@ This template repository is the starter project for C++ Programming For Science 
 
 ### Setup Command
 
-`cmake clean`
+`make clean`
 
 ### Run Command
 
-`cmake test`
+`make test`
