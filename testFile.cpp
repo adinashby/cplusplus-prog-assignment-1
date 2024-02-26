@@ -5,13 +5,13 @@
 
 #include "labFile.hpp"
 
-TEST_CASE("Sum of two integers") {
+TEST_CASE("test1", "Sum of two integers") {
     REQUIRE(sum(3, 4) == 7);
     REQUIRE(sum(-1, 1) == 0);
     REQUIRE(sum(0, 0) == 0);
 }
 
-TEST_CASE("Find grade based on score") {
+TEST_CASE("test2", "Find grade based on score") {
     REQUIRE(findGrade(85) == 'B');
     REQUIRE(findGrade(95) == 'A');
     REQUIRE(findGrade(75) == 'C');
@@ -19,21 +19,21 @@ TEST_CASE("Find grade based on score") {
     REQUIRE(findGrade(55) == 'F');
 }
 
-TEST_CASE("Check if character is a vowel") {
+TEST_CASE("test3", "Check if character is a vowel") {
     REQUIRE(isVowel('A') == true);
     REQUIRE(isVowel('b') == false);
     REQUIRE(isVowel('e') == true);
     REQUIRE(isVowel('Z') == false);
 }
 
-TEST_CASE("Check if year is a leap year") {
+TEST_CASE("test4", "Check if year is a leap year") {
     REQUIRE(isLeapYear(2024) == true);
     REQUIRE(isLeapYear(1900) == false);
     REQUIRE(isLeapYear(2000) == true);
     REQUIRE(isLeapYear(2021) == false);
 }
 
-TEST_CASE("Find maximum among three numbers") {
+TEST_CASE("test5", "Find maximum among three numbers") {
     REQUIRE(max(5, 10, 3) == 10);
     REQUIRE(max(10, 3, 5) == 10);
     REQUIRE(max(3, 5, 10) == 10);
