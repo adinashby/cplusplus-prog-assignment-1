@@ -1,15 +1,24 @@
-# Autograding Example: C++
-This example project is written in C++, and tested with make and [Catch2](https://github.com/catchorg/Catch2).
+# C++ Programming For Science - Assignment 1
 
-### The assignment
-The tests are failing right now because of a bad base case in the factorial function. Correcting the base case will fix the tests.
+This template repository is the starter project for C++ Programming For Science Assignment 1. Written in C++, and tested with CMake/Catch2.
 
-### Setup command
-N/A
+### Question(s)
 
-### Run command
-`make test`
+1. Write a C++ function that returns the sum of two integers.
 
-### Notes
-- `g++` can be used to compile and link C++ applications for use with existing test harnesses or other C++ testing frameworks.
-- If students push `a.out` files, the autograder may attempt to run that version instead of a newly compiled binary. If this happens, and your student isn't on Linux, the script will crash. To fix this issue, it's recommended to clean before building.
+2. Write a C++ function to find the grade of a student based on their score.
+
+3. Write a C++ function to check if a given character is a vowel or not.
+
+4. Write a C++ function to check if a given year is a leap year or not.
+
+5. Write a C++ function to find the maximum among three numbers.
+
+
+### Setup Command
+
+`cmake clean`
+
+### Run Command
+
+`cmake test`
